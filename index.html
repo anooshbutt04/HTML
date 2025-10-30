@@ -3,16 +3,55 @@
         <title> Form </title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <body>
-            <h1> Continental Hotel Reservatio Form </h1>
+        
+            <h1> Continental Hotel Reservation Form </h1>
+        </body>
             <form action="/action_page.php">
-                <label> Continental Hotel Reservatio Form: <br> First name:</label><br>
-                <input type="text" id="fname" name="fname" value=" "><br>
-                <label for="'lname"> </label><br>
-                <input type="text" id="lname" name="lname" value=" "><br><br>
-                <input type="submit" value="Submit">
+                <label> Name </label><br>
+                <input type="text" name="fname" value=" "><br>
+                <label> Email </label>
+                <input type="text" name="email" value=" "><br>
+                <label> Phone number: </label>
+                <input type="text"name="phone number" value=" "><br>
+                <label> Arrival time: </label>
+                <input type="text" name="text" value=" "><br>
+                <label> Departure time: </label>
+                <input type="text"name="departure" value=" ">
+                <input type="text"name="departure2" value=" "><br>
+                <label> Room type: </label>
+                <input type="radio" name="room">
+                <label> Single </label>
+                <input type="radio" name="room">
+                <label> Double </label>
+                <input type="radio" name="room">
+                <label> Presidential Suite </label><br>
+                <label> Preferences: </label> 
+                <input type="radio" name="pref"/>
+                <label> Non-Smoking </label>
+                <input type="radio" name="pref"/>
+                <label> Interent </label>
+                <input type="radio" name="pref"/>
+                <label> Firm Mattress </label><br>
+                <label> Mode Of Payment: </label><br>
+                <input type="radio" name="mode"/>
+                <label> Cash </label>
+                <input type="radio" name="mode"/>
+                <label> Cheque </label>
+                <input type="radio" name="mode"/>
+                <label> Credit Card </label>
+               
+
+    
+            <select>
+            <optgroup label  Select Card:>
+                <option> Meezan Bank </option>
+            <option> Standard Chartered </option>
+        <option> Sadapay </option>
+     </optgroup>
+
 
             </form>
            
-        </body>
+       
     </head>
     </html>
